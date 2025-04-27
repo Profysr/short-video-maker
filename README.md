@@ -12,15 +12,17 @@ An open source automated video creation tool for generating short-form video con
 
 When running with npx
 
-- ffmpeg
-- build-essential, git, cmake, wget to build Whisper.cpp
+1. ffmpeg
+2. build-essential, git, cmake, wget to build Whisper.cpp
 
 ## Install Chocolatey
 
 Open PowerShell as Administrator.
 Run the following command to install Chocolatey:
 
-- Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```bash
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 ## How to run
 
