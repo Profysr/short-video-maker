@@ -30,6 +30,14 @@ You need to install ffmpeg, build-essential, git, cmake, wget to build Whisper.c
 - pnpm install
 - pnpm dev
 
+## How to preview the videos and debug the rendering process
+
+You can use Remotion Studio to preview videos. Make sure to update the template if the underlying data structure changes.
+
+```bash
+npx remotion studio
+```
+
 ## Environment Variables
 
 | Variable                  | Description                                                                                                                                                                                                      |
