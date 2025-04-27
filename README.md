@@ -26,9 +26,17 @@ Run the following command to install Chocolatey:
 
 You need to install ffmpeg, build-essential, git, cmake, wget to build Whisper.cpp. It can be done using chocolaty
 
-- choco install ffmpeg git cmake wget mingw
-- pnpm install
-- pnpm dev
+```bash
+choco install ffmpeg git cmake wget mingw
+```
+
+```bash
+pnpm install
+```
+
+```bash
+pnpm dev
+```
 
 ## How to preview the videos and debug the rendering process
 
